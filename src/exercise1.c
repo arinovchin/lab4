@@ -9,5 +9,5 @@ int main(int argc, char** argv){
         sum += arr[i];
     }
     printf("%.3f\n",sum/10);
-    return 0;
+    return sum;
 }

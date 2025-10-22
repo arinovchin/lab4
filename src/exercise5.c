@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc,char** argv)
+int *main(int argc,char** argv)
 {
     int array1[10][3];
     int array2[3][10];
@@ -40,4 +40,5 @@ int main(int argc,char** argv)
             printf("%d ",array_result[i][j]);
         }
     }
+    return array_result;
 }
